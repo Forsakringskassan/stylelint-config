@@ -1,0 +1,21 @@
+module.exports = {
+    plugins: [require.resolve("stylelint-prettier")],
+    extends: [require.resolve("stylelint-config-standard-scss")],
+    rules: {
+        "at-rule-empty-line-before": null,
+        "at-rule-no-unknown": null,
+        "color-hex-length": null,
+        "font-family-no-missing-generic-family-keyword": null,
+        "no-descending-specificity": null,
+        "rule-empty-line-before": null,
+
+        /* disable patterns as we use BEM -- and __ a lot in addition to default
+         * suggested kebab-case */
+        "selector-class-pattern": null,
+        "scss/dollar-variable-pattern": null,
+        "scss/percent-placeholder-pattern": null,
+
+        /* enable stylelint-prettier rule */
+        "prettier/prettier": true,
+    },
+};

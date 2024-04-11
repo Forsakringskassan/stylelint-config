@@ -1,0 +1,58 @@
+{
+  "name": "@forsakringskassan/stylelint-config",
+  "version": "2.1.0",
+  "description": "Försäkringskassans stylelint-konfiguration",
+  "keywords": [
+    "stylelint"
+  ],
+  "homepage": "https://github.com/Forsakringskassan/stylelint-config",
+  "bugs": "https://github.com/Forsakringskassan/stylelint-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Forsakringskassan/stylelint-config.git"
+  },
+  "license": "MIT",
+  "author": "Försäkringskassan",
+  "main": "index.js",
+  "bin": {
+    "stylelint": "stylelint.js"
+  },
+  "files": [
+    "index.js",
+    "stylelint.js"
+  ],
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "test": "node ./stylelint examples/*.scss"
+  },
+  "commitlint": {
+    "extends": "@forsakringskassan/commitlint-config/no-jira"
+  },
+  "prettier": "@forsakringskassan/prettier-config",
+  "release": {
+    "extends": "@forsakringskassan/semantic-release-config"
+  },
+  "stylelint": {
+    "extends": [
+      "."
+    ]
+  },
+  "dependencies": {
+    "stylelint": "16.3.1",
+    "stylelint-checkstyle-formatter": "0.1.2",
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-prettier": "5.0.0"
+  },
+  "devDependencies": {
+    "@forsakringskassan/prettier-config": "2.0.1",
+    "npm-pkg-lint": "2.4.0"
+  },
+  "peerDependencies": {
+    "prettier": "^3"
+  },
+  "engines": {
+    "node": ">= 18.12",
+    "npm": ">= 7"
+  }
+}
