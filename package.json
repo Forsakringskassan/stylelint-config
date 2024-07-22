@@ -42,7 +42,7 @@
     "stylelint": "16.7.0",
     "stylelint-checkstyle-formatter": "0.1.2",
     "stylelint-config-standard-scss": "13.1.0",
-    "stylelint-prettier": "5.0.0"
+    "stylelint-prettier": "5.0.2"
   },
   "devDependencies": {
     "@forsakringskassan/prettier-config": "2.1.1",
