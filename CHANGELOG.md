@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.8](https://github.com/Forsakringskassan/stylelint-config/compare/v2.2.7...v2.2.8) (2024-08-28)
+
+
+### Bug Fixes
+
+* **deps:** pin some transitive dependencies for a more deterministic experience ([a48944d](https://github.com/Forsakringskassan/stylelint-config/commit/a48944d9cc9c853b5b365cfce32a59cbd4a32b64))
+
 ## [2.2.7](https://github.com/Forsakringskassan/stylelint-config/compare/v2.2.6...v2.2.7) (2024-08-23)
 
 
