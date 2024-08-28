@@ -24,7 +24,8 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "test": "node ./stylelint examples/*.scss"
+    "test": "node ./stylelint examples/*.scss",
+    "posttest": "node tests/dependencies.mjs"
   },
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"
@@ -41,12 +42,16 @@
   "dependencies": {
     "stylelint": "16.8.2",
     "stylelint-checkstyle-formatter": "0.1.2",
+    "stylelint-config-recommended": "14.0.1",
+    "stylelint-config-recommended-scss": "14.1.0",
+    "stylelint-config-standard": "36.0.1",
     "stylelint-config-standard-scss": "13.1.0",
     "stylelint-prettier": "5.0.2"
   },
   "devDependencies": {
     "@forsakringskassan/prettier-config": "2.1.1",
-    "npm-pkg-lint": "3.6.8"
+    "npm-pkg-lint": "3.6.8",
+    "semver": "7.6.3"
   },
   "peerDependencies": {
     "prettier": "^3"
