@@ -9,7 +9,7 @@
   "bugs": "https://github.com/Forsakringskassan/stylelint-config/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Forsakringskassan/stylelint-config.git"
+    "url": "git+https://github.com/Forsakringskassan/stylelint-config.git"
   },
   "license": "MIT",
   "author": "Försäkringskassan",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@forsakringskassan/prettier-config": "2.1.1",
-    "npm-pkg-lint": "2.4.1"
+    "npm-pkg-lint": "3.6.8"
   },
   "peerDependencies": {
     "prettier": "^3"
