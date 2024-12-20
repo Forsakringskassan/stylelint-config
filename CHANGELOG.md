@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [2.3.0](https://github.com/Forsakringskassan/stylelint-config/compare/v2.2.11...v2.3.0) (2024-12-20)
+
+### Features
+
+* **deps:** update dependency stylelint-config-standard-scss to v14 ([d7aea69](https://github.com/Forsakringskassan/stylelint-config/commit/d7aea69fcc700eed18aad8afb615b16caba480b2))
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v16.12.0 ([90ab2d9](https://github.com/Forsakringskassan/stylelint-config/commit/90ab2d9e150c997a8bd948eaf6600164b4f53fd9))
+
 ## [2.2.11](https://github.com/Forsakringskassan/stylelint-config/compare/v2.2.10...v2.2.11) (2024-12-06)
 
 
