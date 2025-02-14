@@ -49,7 +49,7 @@
     "stylelint-prettier": "5.0.3"
   },
   "devDependencies": {
-    "@forsakringskassan/prettier-config": "3.0.0",
+    "@forsakringskassan/prettier-config": "3.0.2",
     "npm-pkg-lint": "3.10.9",
     "semver": "7.7.1"
   },
