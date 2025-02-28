@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [2.4.0](https://github.com/Forsakringskassan/stylelint-config/compare/v2.3.4...v2.4.0) (2025-02-28)
+
+### Features
+
+* **deps:** update dependency stylelint-config-recommended to v15 ([bdc3efd](https://github.com/Forsakringskassan/stylelint-config/commit/bdc3efd10934a4db2edb02eaf43fe8311cb92270))
+
 ## [2.3.4](https://github.com/Forsakringskassan/stylelint-config/compare/v2.3.3...v2.3.4) (2025-02-07)
 
 ### Bug Fixes
