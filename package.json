@@ -1,6 +1,6 @@
 {
   "name": "@forsakringskassan/stylelint-config",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "description": "Försäkringskassans stylelint-konfiguration",
   "keywords": [
     "stylelint"
