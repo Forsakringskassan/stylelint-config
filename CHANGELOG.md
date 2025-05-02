@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.5.1](https://github.com/Forsakringskassan/stylelint-config/compare/v2.5.0...v2.5.1) (2025-05-02)
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v16.19.0 ([86a1d48](https://github.com/Forsakringskassan/stylelint-config/commit/86a1d48486f8b7a6f158d769a0cab576fe8f8c1a))
+* **deps:** update dependency stylelint to v16.19.1 ([ddad6c9](https://github.com/Forsakringskassan/stylelint-config/commit/ddad6c90e84c64eca985285a3810b20bc7721a6c))
+
 ## [2.5.0](https://github.com/Forsakringskassan/stylelint-config/compare/v2.4.3...v2.5.0) (2025-04-18)
 
 ### Features
