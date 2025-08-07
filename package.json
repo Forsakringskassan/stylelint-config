@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-    "stylelint": "16.21.1",
+    "stylelint": "16.23.0",
     "stylelint-checkstyle-formatter": "0.1.2",
     "stylelint-config-recommended": "16.0.0",
     "stylelint-config-recommended-scss": "14.1.0",
