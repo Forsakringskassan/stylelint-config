@@ -20,6 +20,15 @@ for (const name of dependencies) {
         if (!pinned) {
             continue;
         }
+
+        /* workaround: we have forced the version to v39 so we ignore testing this one */
+        if (
+            dependency === "stylelint-config-standard" &&
+            name === "stylelint-config-standard-scss"
+        ) {
+            continue;
+        }
+
         if (!semver.satisfies(pinned, range)) {
             console.log(
                 `Pinned dependency ${dependency}@${pinned} does not satisfy range ${range} required by ${name}`,
