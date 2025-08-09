@@ -9,6 +9,9 @@ module.exports = {
         "no-descending-specificity": null,
         "rule-empty-line-before": null,
 
+        /* does not work with scss */
+        "nesting-selector-no-missing-scoping-root": null,
+
         /* disable patterns as we use BEM -- and __ a lot in addition to default
          * suggested kebab-case */
         "selector-class-pattern": null,
