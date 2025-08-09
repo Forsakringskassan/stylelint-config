@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## [3.0.0](https://github.com/Forsakringskassan/stylelint-config/compare/v2.5.5...v3.0.0) (2025-08-09)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** NodeJS v20 or later is now required.
+
+### Features
+
+* **deps:** require nodejs v20 or later ([749c326](https://github.com/Forsakringskassan/stylelint-config/commit/749c326c76c204c3dda2825953a73e335eee8972))
+* **deps:** update dependency stylelint-config-recommended to v17 ([ef0a2fe](https://github.com/Forsakringskassan/stylelint-config/commit/ef0a2fef1df2fea60eb54ba3035c7abe33386860))
+* **deps:** update dependency stylelint-config-recommended-scss to v15 ([725bea0](https://github.com/Forsakringskassan/stylelint-config/commit/725bea0a2855b5e8834c12e4882f678f6d468b2b))
+* **deps:** update dependency stylelint-config-standard to v39 ([81616af](https://github.com/Forsakringskassan/stylelint-config/commit/81616afa440e06f5e24ecefd966e450c6a273771))
+* **deps:** update dependency stylelint-config-standard-scss to v15 ([d994aee](https://github.com/Forsakringskassan/stylelint-config/commit/d994aeef3bc5440464708f79f405dd9f48f72afd))
+
 ## [2.5.5](https://github.com/Forsakringskassan/stylelint-config/compare/v2.5.4...v2.5.5) (2025-08-08)
 
 ### Bug Fixes
