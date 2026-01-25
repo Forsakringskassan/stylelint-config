@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [3.3.0](https://github.com/Forsakringskassan/stylelint-config/compare/v3.2.3...v3.3.0) (2026-01-25)
+
+### Features
+
+* **deps:** update dependency stylelint to v17 ([15f8ba1](https://github.com/Forsakringskassan/stylelint-config/commit/15f8ba12550ba1dd6bb0ed79d38775485c4725d5))
+* **deps:** update dependency stylelint-config-recommended to v18 ([7254fdb](https://github.com/Forsakringskassan/stylelint-config/commit/7254fdbc239a74c424e9716c85b1af6b96c98434))
+* **deps:** update dependency stylelint-config-recommended-scss to v17 ([a4e41b0](https://github.com/Forsakringskassan/stylelint-config/commit/a4e41b087b12369bd671bc3ecf05571c31d26df2))
+* **deps:** update dependency stylelint-config-standard to v40 ([8fa1e9f](https://github.com/Forsakringskassan/stylelint-config/commit/8fa1e9fecadd3615a1c9eeeae220d1c537e15d96))
+* **deps:** update dependency stylelint-config-standard-scss to v17 ([e3b6696](https://github.com/Forsakringskassan/stylelint-config/commit/e3b66962dc33c2e69ea78a74bece9719706cc24b))
+* this package is now esm only ([87062c3](https://github.com/Forsakringskassan/stylelint-config/commit/87062c3083d9bab29ca1a45e2e3a10efbf4ae669))
+
 ## [3.2.3](https://github.com/Forsakringskassan/stylelint-config/compare/v3.2.2...v3.2.3) (2026-01-16)
 
 ### Bug Fixes
