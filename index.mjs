@@ -1,6 +1,6 @@
-module.exports = {
-    plugins: [require.resolve("stylelint-prettier")],
-    extends: [require.resolve("stylelint-config-standard-scss")],
+export default {
+    plugins: [import.meta.resolve("stylelint-prettier")],
+    extends: [import.meta.resolve("stylelint-config-standard-scss")],
     rules: {
         "at-rule-empty-line-before": null,
         "at-rule-no-unknown": null,
