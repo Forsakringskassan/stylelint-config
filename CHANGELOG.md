@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.3.7](https://github.com/Forsakringskassan/stylelint-config/compare/v3.3.6...v3.3.7) (2026-04-12)
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-recommended-scss to v17.0.1 ([7471dfd](https://github.com/Forsakringskassan/stylelint-config/commit/7471dfd05344a9d04cdbb0c1578591d3fd9b61d8))
+
 ## [3.3.6](https://github.com/Forsakringskassan/stylelint-config/compare/v3.3.5...v3.3.6) (2026-03-29)
 
 ### Bug Fixes
