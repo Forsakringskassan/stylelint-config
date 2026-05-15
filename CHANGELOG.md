@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.4.0](https://github.com/Forsakringskassan/stylelint-config/compare/v3.3.13...v3.4.0) (2026-05-15)
+
+### Features
+
+* **deps:** require nodejs v22 or later ([3eb68a5](https://github.com/Forsakringskassan/stylelint-config/commit/3eb68a54820f56151912b8c98beaaf91b4b214aa))
+
 ## [3.3.13](https://github.com/Forsakringskassan/stylelint-config/compare/v3.3.12...v3.3.13) (2026-05-08)
 
 ### Bug Fixes
