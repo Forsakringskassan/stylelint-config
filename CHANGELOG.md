@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.4.5](https://github.com/Forsakringskassan/stylelint-config/compare/v3.4.4...v3.4.5) (2026-07-23)
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v17.14.1 ([a609050](https://github.com/Forsakringskassan/stylelint-config/commit/a609050b5699fd32b98111079eb853aa411e03ca))
+
 ## [3.4.4](https://github.com/Forsakringskassan/stylelint-config/compare/v3.4.3...v3.4.4) (2026-06-29)
 
 ### Bug Fixes
