@@ -24,8 +24,8 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "test": "node ./stylelint.mjs examples/*.scss",
-    "posttest": "node tests/dependencies.mjs"
+    "test": "node ./stylelint.mjs examples/*.{css,scss,vue} && npm run test:errors",
+    "test:errors": "node tests/dependencies.mjs && node tests/lint-detects-errors.mjs"
   },
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"
@@ -40,6 +40,7 @@
     ]
   },
   "dependencies": {
+    "postcss-html": "2.0.0",
     "stylelint": "17.15.0",
     "stylelint-checkstyle-formatter": "0.1.2",
     "stylelint-config-recommended": "18.0.0",
