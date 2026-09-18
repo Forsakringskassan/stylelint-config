@@ -4,8 +4,8 @@ export default {
     overrides: [
         {
             /* .vue style blocks need an HTML-aware parser, plain css/scss must not use it */
-            files: ["*.vue"],
-            customSyntax: "postcss-html",
+            files: ["**/*.vue"],
+            customSyntax: import.meta.resolve("postcss-html"),
         },
     ],
     rules: {

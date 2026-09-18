@@ -24,8 +24,8 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "test": "node ./stylelint.mjs examples/*.{scss,vue}",
-    "posttest": "node tests/dependencies.mjs"
+    "test": "node ./stylelint.mjs examples/*.{css,scss,vue} && npm run test:errors",
+    "test:errors": "node tests/dependencies.mjs && node --test"
   },
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"
