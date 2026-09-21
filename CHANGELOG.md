@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.5.0](https://github.com/Forsakringskassan/stylelint-config/compare/v3.4.6...v3.5.0) (2026-09-21)
+
+### Features
+
+* add Vue SFC style block support via postcss-html ([48b2c12](https://github.com/Forsakringskassan/stylelint-config/commit/48b2c12a13cf2279b316f85ca3602ccead4c030a))
+
 ## [3.4.6](https://github.com/Forsakringskassan/stylelint-config/compare/v3.4.5...v3.4.6) (2026-09-08)
 
 ### Bug Fixes
