@@ -1,6 +1,13 @@
 export default {
     plugins: [import.meta.resolve("stylelint-prettier")],
     extends: [import.meta.resolve("stylelint-config-standard-scss")],
+    overrides: [
+        {
+            /* .vue style blocks need an HTML-aware parser, plain css/scss must not use it */
+            files: ["**/*.vue"],
+            customSyntax: import.meta.resolve("postcss-html"),
+        },
+    ],
     rules: {
         "at-rule-empty-line-before": null,
         "at-rule-no-unknown": null,
