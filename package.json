@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "postcss-html": "2.0.0",
-    "stylelint": "17.15.0",
+    "stylelint": "17.16.0",
     "stylelint-checkstyle-formatter": "0.1.2",
     "stylelint-config-recommended": "18.0.0",
     "stylelint-config-recommended-scss": "17.0.1",
