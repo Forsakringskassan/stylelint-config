@@ -52,7 +52,7 @@
   "devDependencies": {
     "@forsakringskassan/prettier-config": "3.7.13",
     "npm-pkg-lint": "5.4.0",
-    "semver": "7.8.5"
+    "semver": "7.8.6"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"
