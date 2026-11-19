@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.5.3](https://github.com/Forsakringskassan/stylelint-config/compare/v3.5.2...v3.5.3) (2026-11-19)
+
+### Bug Fixes
+
+* **deps:** update dependency postcss-html to v2.0.1 ([5ad342e](https://github.com/Forsakringskassan/stylelint-config/commit/5ad342e72dc768466610207fd67acb5b7f33aae6))
+
 ## [3.5.2](https://github.com/Forsakringskassan/stylelint-config/compare/v3.5.1...v3.5.2) (2026-11-11)
 
 ### Bug Fixes
