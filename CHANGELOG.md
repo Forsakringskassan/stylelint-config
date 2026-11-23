@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.6.1](https://github.com/Forsakringskassan/stylelint-config/compare/v3.6.0...v3.6.1) (2026-11-23)
+
+### Bug Fixes
+
+* **deps:** update stylelint packages ([9de016b](https://github.com/Forsakringskassan/stylelint-config/commit/9de016be55d2f1c5513ec77f1abb99b9b3294fbd))
+
 ## [3.6.0](https://github.com/Forsakringskassan/stylelint-config/compare/v3.5.3...v3.6.0) (2026-11-19)
 
 ### Features
